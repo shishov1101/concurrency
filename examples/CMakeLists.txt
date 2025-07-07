@@ -1,0 +1,2 @@
+add_executable(spinlock_example spinlock_example.cpp)
+target_link_libraries(spinlock_example PRIVATE concurrency)
